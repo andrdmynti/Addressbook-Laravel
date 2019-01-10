@@ -84,7 +84,7 @@
                       <a href="{{ url ('/address/list') }}">Management Address</a>
                     </li>
                     <li>
-                      <a href="">Management User</a>
+                      <a href="">Management Role Permission</a>
                     </li>
                     <!-- <li>
                       <a href="{{ url ('/') }}">Wilayah</a>

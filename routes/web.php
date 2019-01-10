@@ -31,5 +31,15 @@ Route::prefix('address')->group(function() {
  Route::get('delete/{id}', 'Address\Controller\AddressController@destroy')->name('address.delete');
 });
 
+Route::prefix('address')->group(function() {
+    // Route::get('list', 'Role\Controller\RoleController@index')->name('role.list');
+    // Route::get('add', 'Address\Controller\AddressController@create')->name('address.add');
+    // Route::post('create', 'Address\Controller\AddressController@store')->name('address.insert');
+    // Route::get('show/{id}', 'Address\Controller\AddressController@show')->name('address.show');
+    // Route::get('edit/{id}', 'Address\Controller\AddressController@edit')->name('address.edit');
+    // Route::post('update/{id}', 'Address\Controller\AddressController@update')->name('address.update');
+    // Route::get('delete/{id}', 'Address\Controller\AddressController@destroy')->name('address.delete');
+   });
+
  Route::post( '/get/states', 'Load\Controller\LoadController@city' )->name( 'loadCity' );
  Route::post( '/get/province', 'Load\Controller\LoadController@province' )->name( 'loadProvince' );
