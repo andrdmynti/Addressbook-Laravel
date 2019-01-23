@@ -1,3 +1,15 @@
+<b>Configuration</b>
+1. Composer update
+2. Add file .env into Addressbook-Laravel, copy code from .env.example
+3. Edit file .env, at line 12-14
+4. Create Database in your local
+5. php artisan migrate
+6. php artisan db:seed
+7. php artisan serve
+8. lets see at your browser!
+Have fun, guys!
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
